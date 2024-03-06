@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+
+
+members = ["first_rpg_game", "first_rpg_lib"]
+
+
+[profile.dev]
+opt-level = 1
+
+# Enable max optimizations for dependencies, but not for our code:
+[profile.dev.package."*"]
+opt-level = 3
