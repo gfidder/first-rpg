@@ -10,4 +10,4 @@ license = "MIT"
 [dependencies]
 
 # bevy deps
-bevy = "0.13"
+bevy = "0.12"
